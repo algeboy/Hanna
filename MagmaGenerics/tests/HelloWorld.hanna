@@ -1,0 +1,14 @@
+/* 
+    We can ignore C/C++ styled comments.
+ */
+trait World {
+    // Goal: take this vanilla program and compile
+    // it to some target language.
+    def greet(me:String):String = {
+        if #me > 0 then
+            "Hello" + me
+        else
+            "Hello...\n\t\"World\"!"
+    }
+
+}
