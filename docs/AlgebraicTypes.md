@@ -19,8 +19,8 @@ What I would like is a type that lets me check that an existing type contains so
 
 The specific type introduction is what?
 $$
-\frac{a}{}
+\frac{a:Set, b:Set, a\subset b}{\Gamma\vdash super}(\leq I)
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODExNjE1OSwtNjIzMDc1Nzc4XX0=
+eyJoaXN0b3J5IjpbODc0NjI1NTcwLC02MjMwNzU3NzhdfQ==
 -->
