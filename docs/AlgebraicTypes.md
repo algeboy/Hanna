@@ -9,8 +9,9 @@ introSemigroup : (*:a->a->a)
 		   -> Semigroup a *
 ```
 
-
-> Written with [StackEdit](https://stackedit.io/).
+```haskell
+f
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0MDAzMTA0LC02MjMwNzU3NzhdfQ==
+eyJoaXN0b3J5IjpbMjAyOTMxMDMwLC02MjMwNzU3NzhdfQ==
 -->
