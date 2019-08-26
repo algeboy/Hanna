@@ -15,7 +15,12 @@ data Algebraic a:type ops:(Vect (Op a) n) laws:List Eq a ops
 groupFun : (ops:List Op a) -> ({*,-,1} <: ops) -> (asc<:laws) ...
 ```
 
-What I would like is a type that lets me check that an existing type contains something I want.  Something like `a:List Nat where 1 in a`.  A weak example would be that `a` start with $1$.  So `(1::a) : List Nat 
+What I would like is a type that lets me check that an existing type contains something I want.  Something like `a:List Nat where 1 in a`.  A weak example would be that `a` start with $1$.  So `(1::a) : List Nat` so whatever `a` is will have to build up with `1::_` to get to `List Nat`.  If I want `1` anywhere I would need a `Set` type.
+
+The specific type introduction is what?
+$$
+\frac{a}{}
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NDU5MjA4MSwtNjIzMDc1Nzc4XX0=
+eyJoaXN0b3J5IjpbMTE0ODExNjE1OSwtNjIzMDc1Nzc4XX0=
 -->
