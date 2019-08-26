@@ -3,11 +3,12 @@
 We want to model algebraic structures as flexible types.  This is a problem of polymorphism.
 
 ```haskell
-f : a->a
+data Semigroup a * where
+makeSemigroup : (*:a->a->a) -> ((x,y,z:a)->(x*y)*z=x*(y*z) -> Semigroup a *
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDQ1MDAxNTddfQ==
+eyJoaXN0b3J5IjpbLTk2OTc3MzYzN119
 -->
