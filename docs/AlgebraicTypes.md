@@ -15,7 +15,7 @@ data Algebraic a:type ops:(Vect (Op a) n) laws:List Eq a ops
 groupFun : (ops:List Op a) -> ({*,-,1} <: ops) -> (asc<:laws) ...
 ```
 
-What I would like is a type that lets
+What I would like is a type that lets me check that an existing type contains something I want.  Something like `a:List Nat where 1 in a`.  A weak example would be that `a` start with $1$.  So `(1::a) : List Nat 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTU4MzgyMSwtNjIzMDc1Nzc4XX0=
+eyJoaXN0b3J5IjpbMTE1NDU5MjA4MSwtNjIzMDc1Nzc4XX0=
 -->
