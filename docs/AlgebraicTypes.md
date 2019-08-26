@@ -12,8 +12,10 @@ introSemigroup : (*:a->a->a)
 ```haskell
 data Algebraic a:type ops:(Vect (Op a) n) laws:List Eq a ops
 
+groupFun : (ops:List Op a) -> (G:Algebraic a ops laws) -> 
+
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI2NzY4NjMsLTYyMzA3NTc3OF19
+eyJoaXN0b3J5IjpbNDkyMzk5NzIsLTYyMzA3NTc3OF19
 -->
